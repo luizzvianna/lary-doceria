@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+}
+
+header {
+    background: url("./assents/fundo01.jpg");
+    padding: 10px;
+}
+
+.imagemdoprojeto {
+    border-radius: 100%;
+}
+
+.logo-project {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #DA70D6;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: end;
+    
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.section {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-left: 20px;
+    margin-bottom: -210px;
+}
+
+.project-text {
+    font-size: 19px;
+    margin-bottom: 220px;
+    margin-top: 60px;
+
+}
+
+#lary {
+    margin-right: 50px;
+    border-radius: 100%;
+    margin-bottom: 80px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #DA70D6;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+    padding-right: 10px;
+}
+
+.button {
+    background-color: #DA70D6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.capa {
+    margin-bottom: 458px;
+    border-radius: 50px;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: -20px;
+    margin-left: 30px; 
+}
+
+.check-list {
+    margin-left: 75px;
+    margin-bottom: 40px;
+    margin-top: -230px;
+}
+
+.click-info {
+    background-color: #DA70D6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.space-imagem {
+    gap: 30px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+.instagram-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 109px;
+    background: rgb(233,0,255);
+background: linear-gradient(0deg, rgba(233,0,255,1) 0%, rgba(178,34,34,1) 26%, rgba(255,165,0,1) 69%);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+
