@@ -6,7 +6,7 @@
 }
 
 header {
-    background: url("./assents/fundo01.jpg");
+    background-color: #FFC0CB;
     padding: 10px;
 }
 
@@ -19,6 +19,7 @@ header {
     align-items: center;
     gap: 10px;
     color: #DA70D6;
+    
 }
 
 .menu {
