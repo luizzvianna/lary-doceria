@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #FFC0CB;
+    background: url("./assents/teste01.jpg");
     padding: 10px;
 }
 
@@ -19,12 +19,15 @@ header {
     align-items: center;
     gap: 10px;
     color: #DA70D6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     
 }
 
 .menu {
     list-style-type: none;
     text-align: end;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    
     
 }
 
@@ -71,12 +74,13 @@ header {
     padding: 5px 20px;
     font-size: 20px;
     cursor: pointer;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .capa {
     margin-bottom: 458px;
     border-radius: 50px;
-    margin-top: -25px;
+    margin-top: -6px;
     margin-right: 10px;
 }
 
@@ -103,6 +107,7 @@ header {
     font-size: 15px;
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 
 }
 
