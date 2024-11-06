@@ -6,12 +6,13 @@
 }
 
 header {
-    background: url("./assents/teste01.jpg");
+    background: url("./assents/");
     padding: 10px;
 }
 
 .imagemdoprojeto {
     border-radius: 100%;
+    margin-top: -20px;
 }
 
 .logo-project {
