@@ -154,4 +154,13 @@ background: linear-gradient(0deg, rgba(233,0,255,1) 0%, rgba(178,34,34,1) 26%, r
     z-index: 1000;
 }
 
+iframe {
+    display: block; 
+    margin-left: auto; 
+    margin-right: 190px;  
+    padding-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
 
