@@ -5,6 +5,10 @@
     font-family: "Playwrite GB S", cursive;
 }
 
+body{
+    background-color: pink;
+}
+
 .menu {
     align-items: center;
     padding-left: 33%;
@@ -174,26 +178,95 @@ h3 {
 }
 
 
-.instagram-link {
+.check-list {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
+    bottom: 20px;
     right: 109px;
-    background: rgb(233, 0, 255);
-    background: linear-gradient(0deg, rgba(233, 0, 255, 1) 0%, rgba(178, 34, 34, 1) 26%, rgba(255, 165, 0, 1) 69%);
-    color: #fff;
-    border-radius: 50px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+ 
+}
+
+.botao {
+    background-color: #DA70D6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.botao:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.check-list:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.products {
+    padding-top: 30px;
     text-align: center;
-    font-size: 36px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
+    font-size: 30px;
+    color: black;
 }
 
 
 
 
 
+
+
+.present, .fest {
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 12px #aaaa;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    margin-right: 50px;
+   }
+
+
+   .docinho {
+    width: 300px;
+    height: 300px;
+   }
+   
+   .fest:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    
+   }
+   .present:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+   
+   }
+
+
+ 
+   
+ 
+ 
+   
+ 
+   
+  
+ 
 
 
 
