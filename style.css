@@ -5,16 +5,13 @@
     font-family: "Playwrite GB S", cursive;
 }
 
-
-
 header {
     background: url("./preços/fundofundo.jpg");
     padding: 10px;
     background-size: cover;
     background-position: center;
     padding: 10px;
-    box-shadow: 0 0 30px rgba(255,0,255);
-
+    box-shadow: 0 0 30px rgba(255, 0, 255);
 }
 
 .imagemdoprojeto {
@@ -28,7 +25,6 @@ header {
     gap: 10px;
     color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-
 }
 
 .menu {
@@ -38,8 +34,6 @@ header {
     gap: 50px;
     color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-
-
 }
 
 .menu li {
@@ -59,7 +53,6 @@ header {
     font-size: 19px;
     margin-bottom: 220px;
     margin-top: 60px;
-    
 }
 
 #lary {
@@ -90,7 +83,6 @@ header {
     cursor: pointer;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     margin-left: 50px;
-
 }
 
 .capa {
@@ -125,7 +117,6 @@ header {
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-
 }
 
 .space-imagem {
@@ -148,7 +139,6 @@ header {
     font-size: 30px;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
-
 }
 
 .fa-whatsapp {
@@ -192,5 +182,5 @@ iframe {
 
 li {
     font-size: 30px;
-    
+
 }
