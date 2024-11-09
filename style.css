@@ -5,14 +5,21 @@
     font-family: "Playwrite GB S", cursive;
 }
 
+
+
 header {
-    background: url("./assents/");
+    background: url("./preços/fundofundo.jpg");
     padding: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(255,0,255);
+
 }
 
 .imagemdoprojeto {
     border-radius: 100%;
-    margin-top: -20px;
+    margin-top: -4px;
 }
 
 .logo-project {
@@ -21,15 +28,18 @@ header {
     gap: 10px;
     color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .menu {
     list-style-type: none;
-    text-align: end;
+    text-align: center;
+    margin-top: 20px;
+    gap: 50px;
+    color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    
-    
+
+
 }
 
 .menu li {
@@ -49,22 +59,25 @@ header {
     font-size: 19px;
     margin-bottom: 220px;
     margin-top: 60px;
-
+    
 }
 
 #lary {
-    margin-right: 50px;
+    margin-right: 300px;
     border-radius: 100%;
     margin-bottom: 80px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
 .menu-link {
     text-decoration: none;
-    color: #DA70D6;
+    color: white;
     display: inline-block;
     font-size: 25px;
     font-weight: 800;
     padding-right: 10px;
+    color: #DA70D6;
+    margin: 15px;
 }
 
 .button {
@@ -76,13 +89,16 @@ header {
     font-size: 20px;
     cursor: pointer;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+
 }
 
 .capa {
     margin-bottom: 458px;
-    border-radius: 50px;
-    margin-top: -6px;
+    border-radius: 100px;
+    margin-top: -40px;
     margin-right: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
 .products {
@@ -90,7 +106,7 @@ header {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: -20px;
-    margin-left: 30px; 
+    margin-left: 30px;
 }
 
 .check-list {
@@ -116,6 +132,7 @@ header {
     gap: 30px;
     margin: 10px;
     margin-left: 20px;
+    border-radius: 30px;
 }
 
 .whatsapp-link {
@@ -144,8 +161,8 @@ header {
     height: 60px;
     bottom: 40px;
     right: 109px;
-    background: rgb(233,0,255);
-background: linear-gradient(0deg, rgba(233,0,255,1) 0%, rgba(178,34,34,1) 26%, rgba(255,165,0,1) 69%);
+    background: rgb(233, 0, 255);
+    background: linear-gradient(0deg, rgba(233, 0, 255, 1) 0%, rgba(178, 34, 34, 1) 26%, rgba(255, 165, 0, 1) 69%);
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -155,12 +172,25 @@ background: linear-gradient(0deg, rgba(233,0,255,1) 0%, rgba(178,34,34,1) 26%, r
 }
 
 iframe {
-    display: block; 
-    margin-left: auto; 
-    margin-right: 190px;  
-    padding-top: 20px; 
-    margin-bottom: 20px; 
+    display: block;
+    margin-left: auto;
+    margin-right: 190px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
+.carousel-inner {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
 
+.button:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
 
+li {
+    font-size: 30px;
+    
+}
