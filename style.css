@@ -5,9 +5,7 @@
     font-family: "Playwrite GB S", cursive;
 }
 
-body{
-    background-color: pink;
-}
+
 
 header {
     background: url("./preços/fundofundo.jpg");
@@ -45,6 +43,7 @@ header {
 .menu li {
     display: inline;
     margin-left: 20px;
+    color: black;
 }
 
 .section {
