@@ -21,6 +21,7 @@ header {
 .imagemdoprojeto {
     border-radius: 100%;
     margin-top: -4px;
+    object-fit: cover;
 }
 
 .logo-project {
@@ -29,6 +30,7 @@ header {
     gap: 10px;
     color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
 }
 
 .menu {
@@ -64,6 +66,7 @@ header {
     border-radius: 100%;
     margin-bottom: 80px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    object-fit: cover;
 }
 
 .menu-link {
@@ -95,6 +98,7 @@ header {
     margin-top: -40px;
     margin-right: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    object-fit: cover;
 }
 
 .products {
@@ -103,6 +107,7 @@ header {
     gap: 10px;
     margin-top: -20px;
     margin-left: 30px;
+    object-fit: cover;
 }
 
 .check-list {
@@ -128,6 +133,7 @@ header {
     margin: 10px;
     margin-left: 20px;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 .whatsapp-link {
