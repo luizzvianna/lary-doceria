@@ -28,6 +28,7 @@ body {
     width: calc(23% - 20px);
     text-align: center;
     margin-bottom: 20px;
+    border: 2px solid black;
 }
 
 
@@ -37,11 +38,10 @@ body {
     margin-top: 20px;
     border-radius: 10px;
     object-fit: cover;
+    border: 2px solid black;
 
 }
 
-
-h1,
 h2 {
     margin: 10px 0;
     font-family: "Playwrite GB S", cursive;

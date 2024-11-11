@@ -14,12 +14,14 @@ header {
     background-position: center;
     padding: 10px;
     box-shadow: 0 0 30px rgba(255, 0, 255);
+    border: 2px solid black;
 }
 
 .imagemdoprojeto {
     border-radius: 100%;
     margin-top: -4px;
     object-fit: cover;
+    border: 2px solid black;
 }
 
 .logo-project {
@@ -29,6 +31,7 @@ header {
     color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     object-fit: cover;
+    
 }
 
 .menu {
@@ -38,6 +41,7 @@ header {
     gap: 50px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    
 }
 
 .menu li {
@@ -52,12 +56,14 @@ header {
     padding-bottom: 0;
     margin-left: 20px;
     margin-bottom: -210px;
+    
 }
 
 .project-text {
     font-size: 19px;
     margin-bottom: 220px;
     margin-top: 60px;
+    
 }
 
 #lary {
@@ -66,6 +72,7 @@ header {
     margin-bottom: 80px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     object-fit: cover;
+    border: 2px solid black;
 }
 
 .menu-link {
@@ -77,6 +84,7 @@ header {
     padding-right: 10px;
     color: #DA70D6;
     margin: 15px;
+    
 }
 
 .button {
@@ -89,6 +97,7 @@ header {
     cursor: pointer;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     margin-left: 50px;
+    
 }
 
 .capa {
@@ -98,6 +107,7 @@ header {
     margin-right: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     object-fit: cover;
+    border: 2px solid black;
 }
 
 .products {
@@ -107,12 +117,14 @@ header {
     margin-top: -20px;
     margin-left: 30px;
     object-fit: cover;
+    
 }
 
 .check-list {
     margin-left: 75px;
     margin-bottom: 40px;
     margin-top: -230px;
+    
 }
 
 .click-info {
@@ -125,6 +137,7 @@ header {
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    
 }
 
 .space-imagem {
@@ -133,6 +146,7 @@ header {
     margin-left: 20px;
     border-radius: 30px;
     object-fit: cover;
+    border: 2px solid black;
 }
 
 .whatsapp-link {
@@ -148,6 +162,7 @@ header {
     font-size: 30px;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
+    
 }
 
 .fa-whatsapp {
@@ -176,6 +191,7 @@ iframe {
     margin-right: 190px;
     padding-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid black;
 }
 
 .carousel-inner {

@@ -15,11 +15,13 @@ body{
     display: flex;
     gap: 100px;
     padding-top: 20px;
+    border: 2px solid black;
 }
 
 .imagem {
     border-radius: 100%;
     margin-bottom: 10px;
+    border: 2px solid black;
 }
 
 #search {
@@ -102,11 +104,14 @@ p {
     padding-top: 40px;
     cursor: pointer;
     margin-bottom: 15px;
+   
 }
 
 .doces {
     border-radius: 100%;
     object-fit: cover;
+    border: 3px solid black;
+   
 }
 
 .card {
@@ -116,6 +121,8 @@ p {
  border-radius: 12px;
  box-shadow: 4px 4px 12px #aaaa;
  transition: transform 0.3s ease, box-shadow 0.5s ease;
+ border: 2px solid black;
+ 
  
 }
 
@@ -131,6 +138,7 @@ p {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     
+    
 }
 
 .card div{
@@ -140,12 +148,14 @@ p {
     align-items: center;
     gap: 4px;
     height: 50%;
+    
 
 }
 
 .card h1 {
     font-size: 1.2rem;
     text-align: center;
+    
 
 }
 
@@ -153,6 +163,7 @@ p {
     font-size: .9rem;
     color: #aaaa;
     text-align: center;
+    
 }
 
 .card button {
@@ -163,6 +174,7 @@ p {
     font-size: 1rem;
     font-weight: bold;
     border-radius: 3px;
+    
   }
 
 li {
@@ -239,12 +251,14 @@ h3 {
     box-shadow: 4px 4px 12px #aaaa;
     transition: transform 0.3s ease, box-shadow 0.5s ease;
     margin-right: 50px;
+    border: 2px solid black;
    }
 
 
    .docinho {
     width: 300px;
     height: 300px;
+    
    }
    
    .fest:hover {
