@@ -5,8 +5,6 @@
     font-family: "Playwrite GB S", cursive;
 }
 
-
-
 header {
     background: url("./preços/fundofundo.jpg");
     padding: 10px;
@@ -31,7 +29,7 @@ header {
     color: #DA70D6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     object-fit: cover;
-    
+
 }
 
 .menu {
@@ -41,7 +39,7 @@ header {
     gap: 50px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .menu li {
@@ -56,14 +54,14 @@ header {
     padding-bottom: 0;
     margin-left: 20px;
     margin-bottom: -210px;
-    
+
 }
 
 .project-text {
     font-size: 19px;
     margin-bottom: 220px;
     margin-top: 60px;
-    
+
 }
 
 #lary {
@@ -84,7 +82,7 @@ header {
     padding-right: 10px;
     color: #DA70D6;
     margin: 15px;
-    
+
 }
 
 .button {
@@ -97,7 +95,7 @@ header {
     cursor: pointer;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     margin-left: 50px;
-    
+
 }
 
 .capa {
@@ -117,14 +115,14 @@ header {
     margin-top: -20px;
     margin-left: 30px;
     object-fit: cover;
-    
+
 }
 
 .check-list {
     margin-left: 75px;
     margin-bottom: 40px;
     margin-top: -230px;
-    
+
 }
 
 .click-info {
@@ -137,7 +135,7 @@ header {
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .space-imagem {
@@ -162,7 +160,7 @@ header {
     font-size: 30px;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
-    
+
 }
 
 .fa-whatsapp {
@@ -208,4 +206,124 @@ iframe {
 li {
     font-size: 30px;
 
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+
+
+    .logo-project {
+        font-size: 18px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .imagemdoprojeto {
+        width: 90px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 10px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .menu li {
+        font-size: 18px;
+
+    }
+
+    .menu-link {
+        font-size: 20px;
+        padding: 10px;
+        margin: 5px 0;
+
+    }
+
+    .section {
+        flex-direction: column;
+        padding-top: 38px;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+    }
+
+    .project-text {
+        font-size: 19px;
+        margin-top: -435px;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+
+    #lary {
+        width: 230px;
+        height: 230px;
+        margin-right: 0;
+        margin-bottom: 210px;
+        margin-top: -40px;
+    }
+
+    .products {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .check-list {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    .space-imagem {
+        width: 350px;
+        height: 200px;
+    }
+
+
+    .button {
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 5px 15px;
+    }
+
+    .whatsapp-link {
+        bottom: 30px;
+        right: 30px;
+        font-size: 24px;
+    }
+
+
+    .instagram-link {
+        bottom: 30px;
+        right: 100px;
+        font-size: 30px;
+    }
+
+
+    iframe {
+        margin-right: 20px;
+        margin-left: 20px;
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+
+.button:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+li {
+    font-size: 30px;
 }
