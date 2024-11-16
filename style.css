@@ -213,6 +213,10 @@ li {
 
 @media screen and (max-width: 440px) {
 
+    .header {
+        background: url("./preços/fundofundo.jpg");
+    }
+
 
     .logo-project {
         font-size: 18px;

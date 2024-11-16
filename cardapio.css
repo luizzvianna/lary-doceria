@@ -240,10 +240,6 @@ h3 {
 
 
 
-
-
-
-
 .present, .fest {
     background-color: #fff;
     width: 300px;
@@ -273,6 +269,67 @@ h3 {
     cursor: pointer;
    
    }
+
+
+
+   @media screen and (max-width: 768px) {
+
+    /* Menu */
+    .menu {
+        flex-direction: column; /* Menu em coluna */
+        padding-left: 0;
+        gap: 20px;
+        padding-top: 10px;
+    }
+
+    /* Header */
+    header {
+        padding: 10px;
+    }
+
+    /* Cards de produtos */
+    .card {
+        width: 150px; /* Ajusta a largura dos cards */
+        height: 200px;
+    }
+
+    /* Brigadeiros */
+    .brigadeiros {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Texto */
+    .texto {
+        max-width: 100%; /* Texto ocupa a largura total */
+        margin: 10px;
+    }
+
+
+
+    /* Ajustes gerais nos botões fixos */
+    .check-list, .botao {
+        font-size: 18px;
+        padding: 10px 20px;
+        bottom: 10px;
+    }
+
+    /* Bolo e brigadeiros */
+    .bolo-chefe {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    /* Ajustando o tamanho dos cards de produtos e de doces */
+    .present, .fest, .docinho {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        padding: 10px;
+    }
+}
+
+
 
 
  
