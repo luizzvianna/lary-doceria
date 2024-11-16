@@ -9,4 +9,7 @@ Cada seção do site foi cuidadosamente planejada para destacar os produtos de f
 O uso de HTML garantiu uma estrutura sólida e bem organizada para o conteúdo, enquanto o CSS foi fundamental para dar vida ao design, criando layouts modernos e interativos que refletem a identidade da nossa marca.
 
 esse projeto me trouxe um pouco mais de experiencias com as linguagens alem de ter sido bem desafiador a criação.
+<br>
+
+<img src="https://github.com/luizzvianna/lary-doceria/blob/master/assents/paraogithub.jpg?raw=true">
 
