@@ -72,3 +72,23 @@ h2 {
     color: #aaaa;
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: calc(33.33% - 20px); /* 3 colunas em telas médias */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* 2 colunas em telas pequenas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* 1 coluna em telas muito pequenas */
+    }
+}
