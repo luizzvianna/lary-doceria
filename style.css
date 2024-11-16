@@ -6,7 +6,7 @@
 }
 
 header {
-    background: url("./preços/fundofundo.jpg");
+    background: url("./assents/fundofundo003.jpg");
     padding: 10px;
     background-size: cover;
     background-position: center;
@@ -213,8 +213,9 @@ li {
 
 @media screen and (max-width: 440px) {
 
-    .header {
-        background: url("./preços/fundofundo.jpg");
+    header {
+        background: url("./assents/fundofundo003.jpg");
+        
     }
 
 
